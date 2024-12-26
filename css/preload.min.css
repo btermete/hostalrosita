@@ -63,3 +63,19 @@
 }
 
 /*# sourceMappingURL=../sourcemaps/preload.css.map */
+
+
+.hero_media {
+    display: flex;
+    justify-content: center;     /* horizontally center the image */
+    align-items: center;        /* vertically center the image if it has a set height */
+    overflow: hidden;           /* hide overflow if needed, e.g., for large images */
+  }
+  
+  /* 2) Ensure the image scales down but maintains aspect ratio */
+  .hero_media picture {
+    max-width: 100%;            /* so it never exceeds container width */
+    height: auto;               /* maintain aspect ratio */
+    object-fit: cover;          /* or contain, depending on desired cropping behavior */
+    display: block;
+  }
