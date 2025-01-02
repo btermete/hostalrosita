@@ -209,7 +209,7 @@ a.h1:focus,a.h1:hover,a.h2:focus,a.h2:hover,a.h3:focus,a.h3:hover,a.h4:focus,a.h
 .brand_name {
     font-family: Mulish,sans-serif;
     font-weight: 800;
-    font-size: 30px
+    font-size: 24px;
 }
 
 .socials .list-item {
